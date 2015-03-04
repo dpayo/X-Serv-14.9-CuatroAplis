@@ -1,7 +1,6 @@
 #!/usr/bin/python
 
 import webapp
-
 class Serv_sal(webapp.app):
     def parse(self, request, rest):
         """Parse the received request, extracting the relevant information.
